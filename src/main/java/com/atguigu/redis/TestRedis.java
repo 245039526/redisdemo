@@ -29,5 +29,10 @@ public class TestRedis {
         jedis.set("k1","v1");
         System.out.println(jedis.get("k1"));
     }
+
+    @Test
+    public void test1(){
+        System.out.println("123456");
+    }
 }
 
